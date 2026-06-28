@@ -1,0 +1,5 @@
+metric,value
+coverage_asr,0.894
+coverage_gold,0.951
+I_total,0.446
+residual,1.1e-16

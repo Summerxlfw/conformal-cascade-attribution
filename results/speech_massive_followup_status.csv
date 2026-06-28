@@ -1,0 +1,3 @@
+corpus,language,status,train_audio_rows,devel_audio_rows,test_audio_rows,asr_package,mac_analysis,wer_test_corpus,asr_pct,coverage,word_std_partial,residual,primary_blocker,source_artifact,decision
+Speech-MASSIVE,de-DE,threshold_fail,11514,2033,2974,true,true,0.1521,0.183,0.913,0.065,1.1e-16,ASR_pct_below_8pct,results/massive_de_de/threshold_verdicts.csv,boundary_negative_not_main_evidence
+Speech-MASSIVE,ar-SA,protocol_blocker,115,2033,2974,false,false,NA,NA,NA,NA,NA,missing_full_audio_train,protocol_check_summary,stop_no_package_no_protocol_change

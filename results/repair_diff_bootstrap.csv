@@ -1,0 +1,2 @@
+metric,budget,mean,ci_lo,ci_hi,p_combined_better,n_bootstrap,note
+combined_minus_sz_asr_reduction_diff,0.25,0.001,-0.0034,0.0057,0.65,2000,within-resample paired estimator; full-set point diff at b=0.25 = +0.003

@@ -1,0 +1,5 @@
+check,value,threshold,verdict
+ASR_pct_ge_8pct,0.183,>=8,fail
+test_coverage_ge_0.89,0.913,>=0.89,pass
+word_std_partial_nonnegative,0.065,>=0,pass
+telescoping_abs_residual_le_1e-6,1.1e-16,<=1e-6,pass

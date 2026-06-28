@@ -1,0 +1,6 @@
+signal,partial_rho,ci_lo,ci_hi,n_bootstrap,seed_scheme,deployable
+word_lp_std,0.135,0.098,0.169,3000,per-resample np.random.default_rng(b) b=0..2999; percentile 2.5/97.5,"yes (ASR-internal, no gold)"
+conf_nlu_downstream,-0.152,-0.177,-0.127,3000,per-resample np.random.default_rng(b) b=0..2999; percentile 2.5/97.5,yes (downstream NLU-nonconf)
+min_word_lp,-0.126,-0.161,-0.091,3000,per-resample np.random.default_rng(b) b=0..2999; percentile 2.5/97.5,"yes (ASR-internal, no gold)"
+wer_gold_reference,0.232,0.193,0.272,3000,per-resample np.random.default_rng(b) b=0..2999; percentile 2.5/97.5,no (gold transcript required)
+random,0.017,-0.02,0.053,3000,per-resample np.random.default_rng(b) b=0..2999; percentile 2.5/97.5,reference only

@@ -1,0 +1,7 @@
+metric,value
+coverage_asr,0.913
+coverage_gold,0.924
+I_total,0.55
+residual,1.1e-16
+threshold_q,0.9081713658367199
+n_test,2974.0

@@ -1,0 +1,2 @@
+metric,budget,mean,ci_lo,ci_hi,p_combined_better,n_bootstrap,note
+combined_minus_sz_asr_reduction_diff,0.25,0.0132,0.0064,0.0198,1.0,2000,within-resample paired estimator; same estimator as SLURP script

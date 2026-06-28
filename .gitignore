@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+*.parquet
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.pdf.tmp
+figures/figure_outputs/
