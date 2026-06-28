@@ -37,6 +37,6 @@
 ## Metric Anti-cheating Checks
 
 - No test-set threshold tuning: conformal threshold calibrated on ASR-devel, fixed; ASR decoded once.
-- No metric switching after seeing results: primary endpoint (decomposition + partial ρ) pre-registered; the earlier "conf>WER targeting" headline was retracted *because* the pre-registered trivial-baseline comparison failed it, not by switching metrics.
+- No metric switching after seeing results: primary endpoint (decomposition + partial rho) was pre-specified; the earlier "conf>WER targeting" headline was retracted because the pre-specified trivial-baseline comparison failed it, not by switching metrics.
 - No cherry-picking best seed: ASR decoded once; NLU deterministic; CIs by bootstrap; robustness via 0.8 train-subsample × 3 seeds.
 - Exploratory labeling: the learned deployable composite (Ridge on devel) is labeled post-hoc/exploratory; APS undercoverage (0.875, non-randomized) and α=0.20 degeneration are flagged as known limitations, not hidden.

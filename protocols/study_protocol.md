@@ -45,8 +45,8 @@ See `metric_definition.md`.
 
 - Primary endpoint: per-stage inflation decomposition (I_ASR, I_NLU shares) AND partial Spearman ρ(gold-free signal, Δ | sz_asr) — the gold-free attribution power beyond the trivial set-size baseline.
 - Confidence interval: bootstrap (3000 resamples) over test utterances, 95% percentile.
-- Significance test: bootstrap CI excludes 0; pre-registered GO threshold for the gold-free signal = partial ρ > +0.15 AND within-stratum lift clearly > random.
-- Multiple comparison handling: all candidate gold-free signals reported (no selective reporting); the single pre-registered signal verdict governs; learned composites flagged explicitly as post-hoc.
+- Significance test: bootstrap CI excludes 0; pre-specified operational GO threshold for the gold-free signal = partial rho > +0.15 AND within-stratum lift clearly > random.
+- Multiple comparison handling: all candidate gold-free signals reported (no selective reporting); the single pre-specified signal verdict governs; learned composites flagged explicitly as post-hoc.
 - Seed policy: ASR decoded once (holdout discipline); NLU deterministic; robustness via 0.8 train-subsample × 3 seeds; CIs by bootstrap over test, not seed cherry-picking.
 
 ## Fairness Rules
