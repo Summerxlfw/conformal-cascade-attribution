@@ -2,7 +2,8 @@
 
 ## Environment
 
-The scripts were developed with Python 3.10+ on macOS/Linux. Install:
+The scripts were developed with Python 3.10+ on macOS/Linux. `requirements.txt`
+pins the versions used for the public-release smoke test on 2026-06-28. Install:
 
 ```bash
 pip install -r requirements.txt
