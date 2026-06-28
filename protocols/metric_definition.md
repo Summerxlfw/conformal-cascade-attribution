@@ -14,9 +14,9 @@
 | Metric | Formula | Purpose | Direction |
 |---|---|---|---|
 | Marginal coverage | mean_x 1[y ∈ C(x)] | conformal validity (must hold) | ≥ 1 − α (target 0.90) |
-| Partial Spearman ρ(signal, Δ ∣ sz_asr) | rank-partial correlation of a gold-free signal with true repair benefit Δ, controlling deployed set size sz_asr | does a gold-free signal add attribution power beyond the trivial baseline? (the decisive test) | higher = more usable; pre-reg GO = > +0.15 |
+| Partial Spearman ρ(signal, Δ ∣ sz_asr) | rank-partial correlation of a gold-free signal with true repair benefit Δ, controlling deployed set size sz_asr | does a gold-free signal add attribution power beyond the trivial baseline? (the decisive test) | higher = more usable; operational GO = > +0.15 |
 | Within-stratum / top-budget repair lift | mean Δ over top-b by signal ÷ mean Δ (and set-size reduction at fixed budget under fixed threshold) | actionable repair efficiency vs trivial / random | higher = better targeting |
-| Repair-induced-drop slack | fraction of repaired utterances covered under ASR but not under gold | boundary of the empirical coverage-preserving repair property | lower (reported, ≤0.05) |
+| Repair-induced-drop slack | fraction of repaired utterances covered under ASR but not under gold | boundary of the empirical conditional repair-coverage audit | lower (reported, ≤0.05) |
 | Word Error Rate (WER) | edit distance(gold, asr) / len(gold) | context + the gold-requiring upper-reference attributor | lower; reported, not optimized |
 
 ## Exclusion Rules

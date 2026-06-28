@@ -68,7 +68,7 @@ bars[3].set_hatch("///")                                   # WER 需 gold, 非�
 a1.axvline(2.5,ls=":",lw=0.8,color="#888888")              # 分隔: 左=可部署 gold-free 候选; 右=需-gold/随机 参照
 a1.annotate("uses gold\n(ceiling)",xy=(3,prho_vals[3]),xytext=(3,prho_vals[3]+0.05),
             ha="center",fontsize=6,color="#C44E52")
-a1.axhline(0.15,ls="--",lw=1,color="k"); a1.text(1.2,0.16,"pre-reg +0.15",fontsize=7)
+a1.axhline(0.15,ls="--",lw=1,color="k"); a1.text(1.2,0.16,"operational +0.15",fontsize=6.5)
 a1.axhline(0,lw=0.8,color="k"); a1.set_xticks(range(len(sig_order))); a1.set_xticklabels(["word_lp_std","min_word_lp","NLU-nonconf","WER","random"],fontsize=6.5,rotation=20,ha="right")  # 旋转去拥挤;gold-free/gold 区分由 x=2.5 分隔线+WER"uses gold"标注承载
 a1.set_ylim(-0.22,0.31)
 a1.set_ylabel(r"partial $\rho(\mathrm{signal},\Delta\,|\,\mathrm{sz\_asr})$"); a1.set_title("(a) Gold-free attribution vs trivial baseline (WER = gold ceiling)",fontsize=7.5)
